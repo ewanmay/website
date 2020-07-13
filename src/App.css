@@ -18,6 +18,10 @@
   flex-direction: column;
 }
 
+.row {
+  flex-direction: row;
+}
+
 .fill {
   flex: 1 1
 }

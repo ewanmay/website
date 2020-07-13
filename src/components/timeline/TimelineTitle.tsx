@@ -5,7 +5,7 @@ function TimelineTitle() {
   return (
     <div className="timeline-title flex center-item column">
       Here's my timeline      
-      <img src={TimelineIcon} className="timeline-icon" height="30px"></img>
+      <img src={TimelineIcon} className="timeline-icon" alt="" height="30px"></img>
     </div>
   );
 }

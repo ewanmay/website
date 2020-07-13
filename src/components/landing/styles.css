@@ -1,7 +1,8 @@
 .landing-name {
   font-family: 'Righteous', cursive;
   color: #267FE9;
-  font-size: 75px;
+  font-size: 75px;    
+  line-height: 60px;
   border-bottom: 4px solid #72CCFF;
 }
 
@@ -12,7 +13,7 @@
 }
 
 .landing {
-  height: 50vh;
+  height: 80vh;
 }
 
 .landing-picture {

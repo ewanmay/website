@@ -7,7 +7,7 @@ function LandingName() {
         Ewan May
       </div>
       <div className="landing-name-undername left">
-        prounounced 'you win'
+        pronounced 'you win'
       </div>
     </div>
   );
