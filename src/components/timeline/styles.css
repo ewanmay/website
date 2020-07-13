@@ -1,0 +1,11 @@
+.timeline {
+  height: 40vh;
+  background-color: #72ccff;
+}
+
+.timeline-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  color: white;
+}

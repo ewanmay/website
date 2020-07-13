@@ -1,0 +1,20 @@
+.landing-name {
+  font-family: 'Righteous', cursive;
+  color: #267FE9;
+  font-size: 75px;
+  border-bottom: 4px solid #72CCFF;
+}
+
+.landing-name-undername {
+  color: #002A5A;
+  font-family: 'Righteous', cursive;
+  font-size: 25px;
+}
+
+.landing {
+  height: 50vh;
+}
+
+.landing-picture {
+  height: 250px;
+}
