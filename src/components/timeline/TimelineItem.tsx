@@ -5,7 +5,8 @@ interface TimelineItemProps {
   children?: any,
   title: string,
   position: string,
-  date: string,
+  startDate: string,
+  endDate?: string,
   location: string,
   url: string,
   img: string
@@ -14,11 +15,14 @@ interface TimelineItemProps {
 function TimelineItem(props: TimelineItemProps) {
   return (
     <div className="timeline-item center-item flex row">
-      <div className="fit mr-3 timeline-item-image">
+      <div className="fit column center-item flex mr-3">
         <img src={props.img} alt="" height={100}></img>
+        <div className="fill column flex center-item">
+          <div className="timeline-item-image col-6 fill"></div>
+        </div>
       </div>
       <div className="flex column pl-3">
-        <TimelineItemTitle url={props.url} title={props.title} position={props.position} date={props.date} location={props.location} />
+        <TimelineItemTitle endDate={props.endDate} url={props.url} title={props.title} position={props.position} startDate={props.startDate} location={props.location} />
         <div className="timeline-item-body">
           {props.children}
         </div>

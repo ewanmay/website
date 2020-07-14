@@ -2,6 +2,8 @@ import React from 'react';
 import TimelineItem from './TimelineItem';
 import TimelineTitle from './TimelineTitle';
 import SeroTrackerIcon from '../../assets/SeroTrackerIcon.svg';
+import ESSIcon from '../../assets/ESSLogo.svg';
+import ArcurveIcon from '../../assets/ArcurveIcon.svg';
 import './styles.css'
 
 function Timeline() {
@@ -11,7 +13,7 @@ function Timeline() {
         <TimelineTitle />
         <TimelineItem
           url="https://serotracker.com/"
-          img={SeroTrackerIcon} date="April 2020" title="SeroTracker" position="Frontend Developer" location="Calgary, AB">
+          img={SeroTrackerIcon} startDate="April 2020" title="SeroTracker" position="Frontend Developer" location="Calgary, AB">
           <div className="fill flex left column pt-3">
             <div className="">
               My team and I designed and built the frontend for SeroTracker, a website displaying COVID-19 antibody data from around the world.
@@ -22,14 +24,40 @@ function Timeline() {
           </div>
           </div>
         </TimelineItem>
-        <TimelineItem img={SeroTrackerIcon} date="March 2020"
+        <TimelineItem img={ESSIcon} startDate="March 2020"
           url="https://essucalgary.com/"
           title="Engineering Students' Society"
           position="President" location="Calgary, AB">
           <div className="fill flex left column pt-3">
             <div className="">
-              My team and I designed and built the frontend for SeroTracker, a website displaying COVID-19 antibody data from around the world.
+              As President, I am overseeing 24 incredible council members in a wide array of portfolios. At the Engineering Students' Society (ESS) we run events, services, sell merchandise, and provide support for almost every aspect of the student experience.
           </div>
+          <br/>
+          <div className="">
+              Currently we are working on creating a podcast, revamping our social media, and planning a week of online and socially distanced events just to name a few. I have never learned so much so quickly, and I am so excited to see where this year takes us.
+          </div>
+          </div>
+        </TimelineItem>
+        <TimelineItem img={ArcurveIcon} startDate="May 2019"
+          url="https://arcurve.com/"
+          title="Arcurve Inc"
+          position="Software Developer Intern" location="Calgary, AB">
+          <div className="fill flex left column pt-3">
+            <div className="">
+              I have spent the last 14 moonths working on an Angular application, with a C# (.Net) backend. In that time I have implemented security roles, a data tracking system to keep track of state over time, rebuilt the dashboard, and implemented a new major screen that I designed. I have so much appreciation for everyone on my team who has put up with my bad jokes, and been patient with me as I made the mistakes I needed to learn properly.
+            </div>
+          <br/>
+          </div>
+        </TimelineItem>        
+        <TimelineItem img={ESSIcon} startDate="March 2018" endDate="March 2019"
+          url="https://essucalgary.com/"
+          title="Engineering Students' Society"
+          position="Vice President Student Life" location="Calgary, AB">
+          <div className="fill flex left column pt-3">
+            <div className="">
+              This year was an incredible experience. Our team raised over $6000 for charity amd held social events for hundreds of students. I learned the value of not planning last minute, and what being accountable to the public feels like. I cherish my time there, and it's the main reason I went back.
+            </div>
+          <br/>
           </div>
         </TimelineItem>
       </div>

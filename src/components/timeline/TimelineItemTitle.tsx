@@ -3,7 +3,8 @@ import React from 'react';
 interface TimelineItemTitleProps {
   title: string,
   position: string,
-  date: string,
+  startDate: string,
+  endDate?: string,
   url: string,
   location: string
 }
@@ -16,9 +17,13 @@ function TimelineItemTitle(props: TimelineItemTitleProps) {
       </a>
       <div className="timeline-item-position">
         {props.position},
+        {props.endDate ? 
         <i>
-           {' Since ' + props.date}
-        </i>
+          {` ${props.startDate} - ${props.endDate}`}
+        </i>:        
+        <i>
+           {' Since ' + props.startDate}
+        </i>}
       </div>
       <div className="timeline-item-date">
         {props.location}
