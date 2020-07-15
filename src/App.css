@@ -18,6 +18,10 @@
   flex-direction: column;
 }
 
+.space-evenly {
+  justify-content: space-evenly;
+}
+
 .row {
   flex-direction: row;
 }

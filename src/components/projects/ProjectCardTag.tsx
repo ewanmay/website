@@ -1,9 +1,13 @@
 import React from 'react';
 
-function ProjectCardTag() {
+interface ProjectCardTagInterface {
+  tag: string
+}
+
+function ProjectCardTag({tag}: ProjectCardTagInterface) {
   return (
-    <div className="ProjectCardTag">
-      ProjectCardTag
+    <div className="project-card-tag px-1">
+      {tag}
     </div>
   );
 }

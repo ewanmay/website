@@ -1,0 +1,32 @@
+.contact {
+  background-image: url("../../assets/WonderLivesHere.svg");
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-card {
+  background-color: white;
+  border-radius: 4px;
+  max-width: 500px;
+}
+
+.contact-summary {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  padding: 1rem;
+  color: black;
+}
+
+.divider {
+  border-top: 2px solid black;
+}
+
+.contact-message {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 1rem;
+  color: #002A5A;
+}

@@ -1,9 +1,21 @@
 import React from 'react';
 
-function ProjectCardTitle() {
+interface ProjectCardTitleProps {
+  title: string,
+  date: string,
+  project: string
+}
+
+function ProjectCardTitle({ title, date, project }: ProjectCardTitleProps) {
   return (
-    <div className="ProjectCardTitle">
-      ProjectCardTitle
+    <div className="flex column left pt-2">
+      <div className="project-card-title py-1">
+        {title}
+      </div>
+      <div className="project-card-position">
+        {project},
+  <i>{" " + date}</i>
+      </div>
     </div>
   );
 }

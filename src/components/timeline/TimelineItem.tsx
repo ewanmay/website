@@ -16,7 +16,7 @@ function TimelineItem(props: TimelineItemProps) {
   return (
     <div className="timeline-item center-item flex row">
       <div className="fit column center-item flex mr-3">
-        <img src={props.img} alt="" height={100}></img>
+        <img src={props.img} alt="" height={100} width={100}></img>
         <div className="fill column flex center-item">
           <div className="timeline-item-image col-6 fill"></div>
         </div>

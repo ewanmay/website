@@ -3,6 +3,7 @@ import TimelineItem from './TimelineItem';
 import TimelineTitle from './TimelineTitle';
 import SeroTrackerIcon from '../../assets/SeroTrackerIcon.svg';
 import ESSIcon from '../../assets/ESSLogo.svg';
+import RepliconLogo from '../../assets/RepliconLogo.svg';
 import ArcurveIcon from '../../assets/ArcurveIcon.svg';
 import './styles.css'
 
@@ -32,8 +33,8 @@ function Timeline() {
             <div className="">
               As President, I am overseeing 24 incredible council members in a wide array of portfolios. At the Engineering Students' Society (ESS) we run events, services, sell merchandise, and provide support for almost every aspect of the student experience.
           </div>
-          <br/>
-          <div className="">
+            <br />
+            <div className="">
               Currently we are working on creating a podcast, revamping our social media, and planning a week of online and socially distanced events just to name a few. I have never learned so much so quickly, and I am so excited to see where this year takes us.
           </div>
           </div>
@@ -46,18 +47,40 @@ function Timeline() {
             <div className="">
               I have spent the last 14 moonths working on an Angular application, with a C# (.Net) backend. In that time I have implemented security roles, a data tracking system to keep track of state over time, rebuilt the dashboard, and implemented a new major screen that I designed. I have so much appreciation for everyone on my team who has put up with my bad jokes, and been patient with me as I made the mistakes I needed to learn properly.
             </div>
-          <br/>
+            <br />
           </div>
-        </TimelineItem>        
+        </TimelineItem>
         <TimelineItem img={ESSIcon} startDate="March 2018" endDate="March 2019"
           url="https://essucalgary.com/"
           title="Engineering Students' Society"
           position="Vice President Student Life" location="Calgary, AB">
           <div className="fill flex left column pt-3">
             <div className="">
-              This year was an incredible experience. Our team raised over $6000 for charity amd held social events for hundreds of students. I learned the value of not planning last minute, and what being accountable to the public feels like. I cherish my time there, and it's the main reason I went back.
+              The year I spent with this team in this position was an incredible experience. Our student life team raised over $6000 for charity amd held social events for hundreds of students. I learned the value of not planning last minute, and what being accountable to the public feels like. I cherish my time there, and it's the main reason I went back.
             </div>
-          <br/>
+            <br />
+          </div>
+        </TimelineItem>
+        <TimelineItem img={RepliconLogo} startDate="May 2018" endDate="August 2018"
+          url="https://replicon.com/"
+          title="Replicon"
+          position="Software Developer Intern" location="Calgary, AB">
+          <div className="fill flex left column pt-3">
+            <div className="">
+              In my second summer with Replicon, I spent a lot of it working on our AWS Codepipelines along with some frameworks test results, creating a lot of automation tooling. Some of the tooling I created was around modifying release candidates for hotfixes in production, which reduced processing time by around 60% whenever we needed to deploy a hotfix. 
+            </div>
+            <br />
+          </div>
+        </TimelineItem>
+        <TimelineItem img={RepliconLogo} startDate="May 2017" endDate="August 2017"
+          url="https://replicon.com/"
+          title="Replicon"
+          position="Software Developer Intern" location="Calgary, AB">
+          <div className="fill flex left column pt-3">
+            <div className="">
+              My first summer at Replicon was one I will never forget. I began at such a beginner level, learning Ember JS and writing small frontend changes. Bouncing around doing testing architecture to deploy custom instances of our products, I landed on a project to rewrite one of our internal tools from an Ember JS product to a React application as an exploratory task. This company took me on when I knew little, invested time in me, and helped me learn. I'll always remember and appreciate it.
+            </div>
+            <br />
           </div>
         </TimelineItem>
       </div>

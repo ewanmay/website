@@ -1,0 +1,23 @@
+.values {
+  border-left: 20px solid;
+  border-right: 20px solid;
+  margin: 2em;
+}
+
+.values-container {
+  background-color: #72ccff;
+}
+
+.values-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  padding-bottom: 1rem;
+  color: navy;
+}
+
+.values-item {
+  color: #002a5a;
+  font-family: "Righteous", cursive;
+  font-size: 22px;
+}

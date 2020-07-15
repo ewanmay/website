@@ -25,7 +25,7 @@ function TimelineItemTitle(props: TimelineItemTitleProps) {
            {' Since ' + props.startDate}
         </i>}
       </div>
-      <div className="timeline-item-date">
+      <div className="timeline-item-location">
         {props.location}
       </div>
     </div>
