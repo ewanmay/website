@@ -4,7 +4,7 @@ import LandingPage from '../../assets/LandingPhoto.svg';
 function LandingPicture() {
   return (
     <div className="px-3">
-      <img src={LandingPage} className="landing-picture"></img>
+      <img src={LandingPage} className="landing-picture" alt=""></img>
     </div>
   );
 }

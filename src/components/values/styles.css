@@ -1,7 +1,7 @@
 .values {
-  border-left: 20px solid;
-  border-right: 20px solid;
-  margin: 2em;
+  background-color: #b3e9ff;
+  padding: 10em 2em;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
 
 .values-container {
@@ -13,11 +13,18 @@
   font-weight: 300;
   font-size: 25px;
   padding-bottom: 1rem;
-  color: navy;
+  color: #002a5a;
 }
 
 .values-item {
   color: #002a5a;
+  font-family: "Righteous", cursive;
+  font-size: 22px;
+}
+
+
+.values-item:hover {
+  color: white;
   font-family: "Righteous", cursive;
   font-size: 22px;
 }

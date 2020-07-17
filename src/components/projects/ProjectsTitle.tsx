@@ -1,11 +1,14 @@
 import React from 'react';
 import ProjectIcon from '../../assets/ProjectIcon.svg'
+import Loader from '../shared/Loader';
 function ProjectsTitle() {
   return (
-    <div className="projects-title flex column">
-      From the workbench
+    <Loader>
+      <div className="projects-title flex column">
+        From the workbench
       <img src={ProjectIcon} alt=""></img>
-    </div>
+      </div>
+    </Loader>
   );
 }
 

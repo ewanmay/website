@@ -5,12 +5,13 @@ import SeroTrackerIcon from '../../assets/SeroTrackerIcon.svg';
 import ESSIcon from '../../assets/ESSLogo.svg';
 import RepliconLogo from '../../assets/RepliconLogo.svg';
 import ArcurveIcon from '../../assets/ArcurveIcon.svg';
+import UniversityOfCalgary from '../../assets/UniversityOfCalgaryLogo.svg';
 import './styles.css'
 
 function Timeline() {
   return (
     <div className="timeline-container flex center-item">
-      <div className="timeline col-lg-6">
+      <div className="timeline flex column center-item col-lg-6">
         <TimelineTitle />
         <TimelineItem
           url="https://serotracker.com/"
@@ -56,7 +57,7 @@ function Timeline() {
           position="Vice President Student Life" location="Calgary, AB">
           <div className="fill flex left column pt-3">
             <div className="">
-              The year I spent with this team in this position was an incredible experience. Our student life team raised over $6000 for charity amd held social events for hundreds of students. I learned the value of not planning last minute, and what being accountable to the public feels like. I cherish my time there, and it's the main reason I went back.
+              My first major volunteering commitment was one I would gladly do again. Our student life team raised over $6000 for charity amd held social events for hundreds of students. Practice in teamwork, planning, communication while demonstrating accountability was all new, and I loved it.
             </div>
             <br />
           </div>
@@ -67,7 +68,7 @@ function Timeline() {
           position="Software Developer Intern" location="Calgary, AB">
           <div className="fill flex left column pt-3">
             <div className="">
-              In my second summer with Replicon, I spent a lot of it working on our AWS Codepipelines along with some frameworks test results, creating a lot of automation tooling. Some of the tooling I created was around modifying release candidates for hotfixes in production, which reduced processing time by around 60% whenever we needed to deploy a hotfix. 
+              In my second summer with Replicon, I worked mostly on our AWS Codepipelines along with some frameworks test results, creating a lot of automation tooling. Some of the tooling I created was around modifying release candidates for hotfixes in production, which reduced processing time by around 60% whenever we needed to deploy a hotfix. 
             </div>
             <br />
           </div>
@@ -78,7 +79,18 @@ function Timeline() {
           position="Software Developer Intern" location="Calgary, AB">
           <div className="fill flex left column pt-3">
             <div className="">
-              My first summer at Replicon was one I will never forget. I began at such a beginner level, learning Ember JS and writing small frontend changes. Bouncing around doing testing architecture to deploy custom instances of our products, I landed on a project to rewrite one of our internal tools from an Ember JS product to a React application as an exploratory task. This company took me on when I knew little, invested time in me, and helped me learn. I'll always remember and appreciate it.
+              My first summer at Replicon was full of learning. I began at such a beginner level, learning Ember JS and writing small frontend changes. Bouncing around doing testing architecture to deploy custom instances of our products, I landed on a project to rewrite one of our internal tools from an Ember JS product to a React application as an exploratory task. I'll always appreciate how Replicon invested time in me, and helped me learn when I was just starting out. 
+            </div>
+            <br />
+          </div>
+        </TimelineItem>
+        <TimelineItem img={UniversityOfCalgary} startDate="September 2016"
+          url="https://schulich.ucalgary.ca/"
+          title="University of Calgary"
+          position="Bachelors of Electrical Engineering" location="Calgary, AB">
+          <div className="fill flex left column pt-3">
+            <div className="">
+              After 4 years at the University of Calgary, I already look back fondly. Late nights spent battling assignments in the lab, ski trips with friends, and a new appreciation for dedication. Along the way I fortunately confirmed that I was in the right degree, and I fell in love with building important projects. 
             </div>
             <br />
           </div>

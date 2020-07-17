@@ -10,9 +10,9 @@ import CloudPantry from '../../assets/CloudPantry.svg'
 
 function Projects() {
   return (
-    <div className="projects flex column">
+    <div className="projects flex column center-item">
       <ProjectsTitle />
-      <div className="row space-evenly flex">
+      <div className="row m-0 space-evenly flex">
         <ProjectCard
           title="Tic Tracker"
           projectName="Embedded Software Project"
@@ -24,8 +24,8 @@ function Projects() {
             Currently movement disorder specialists have very little to quantify the effectiveness of their treatments.
             Our device records movements with an accelerometer and stores it into an SD card on a mobile battery powered microcontroller.
             Tic Tracker started with a competition called{' '}
-          <a href="https://www.neuro-nexus.ca/" target="_blank" rel="noopener noreferrer">Neuro Nexus</a>
-          , where our team won first in the research category. Our next step is to get some test results from patients! 
+            <a href="https://www.neuro-nexus.ca/" target="_blank" rel="noopener noreferrer">Neuro Nexus</a>
+          , where our team won first in the research category. Our next step is to get some test results from patients!
         </div>
         </ProjectCard>
 
@@ -49,7 +49,7 @@ function Projects() {
           date="January 2019"
           tags={["TypeScript", "Python", "Raspberry Pi", "React Native", "AWS", "System Design", "Sensors"]}>
           <div className="project-card-body">
-            Cloud Pantry was a project to upload the food items in your house to the cloud for ease of tracking. 
+            Cloud Pantry was a project to upload the food items in your house to the cloud for ease of tracking.
             Our system consisted of a weight scale, barcode scanner, arduino, raspberry pi, and a react native application. Once scanned and weighed, the item would be sent through our raspberry pi to AWS Lambda which would store it in DynamoDB.
         </div>
         </ProjectCard>
