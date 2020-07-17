@@ -15,10 +15,10 @@ function ContactCard() {
       </div>
       <div className="flex center-item">
         <a href="https://www.linkedin.com/in/ewan-may/" target="_blank" rel="noopener noreferrer" className="navbar-item">
-          <img src={LinkedIn} height="30" alt=""></img>
+          <img src={LinkedIn} height="40" alt=""></img>
         </a>
         <a href="mailto:ewanmay3@gmail.com" target="_blank" rel="noopener noreferrer" className="navbar-item">
-          <img src={Email} height="30" alt=""></img>
+          <img src={Email} height="40" alt=""></img>
         </a>
       </div>
     </div>
