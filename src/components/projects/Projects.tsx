@@ -18,6 +18,7 @@ function Projects() {
           projectName="Embedded Software Project"
           img={TicTrackerPhoto}
           location="Calgary, AB"
+          githubUrl={'https://github.com/ewanmay/TicTracking'}
           date="May 2019"
           tags={["C++", "Python", "ESP-32", "Accelerometers", "PCB Design", "CAD", "Pitch Comp"]}>
           <div className="project-card-body">
@@ -32,7 +33,8 @@ function Projects() {
         <ProjectCard
           title="Garage Door Opener"
           projectName="Embedded / Mobile Software Project"
-          img={GarageDoorOpener}
+          img={GarageDoorOpener}          
+          githubUrl={'https://github.com/ewanmay/Ultrasonic_Garage'}
           location="Calgary, AB"
           date="March 2019"
           tags={["C++", "JavaScript", "React Native", "ESP-32", "Accelerometers", "Sensors"]}>
@@ -45,7 +47,8 @@ function Projects() {
           title="Cloud Pantry"
           projectName="Mobile Software Project"
           img={CloudPantry}
-          location="Calgary, AB"
+          location="Calgary, AB"          
+          githubUrl={'https://github.com/ewanmay/cloudpantry'}
           date="January 2019"
           tags={["TypeScript", "Python", "Raspberry Pi", "React Native", "AWS", "System Design", "Sensors"]}>
           <div className="project-card-body">

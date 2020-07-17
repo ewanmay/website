@@ -15,6 +15,33 @@
   margin: 2px;
 }
 
+.project-card-image-overlay {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.project-card-image:hover > .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000;
+  justify-content: center;
+  text-decoration: none;
+  transition-delay: 3s;
+  transition: opacity 500ms;
+  opacity: 0.8;
+}
+
+.project-card-image > .overlay {
+  position: absolute;
+  justify-content: center;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .project-card {
   background: white;
   border-radius: 5px;
@@ -25,6 +52,7 @@
 .project-card-image {
   width: 100%;
   border-radius: 3px;
+  position: relative;
 }
 
 .project-card-title {
