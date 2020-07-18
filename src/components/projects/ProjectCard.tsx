@@ -19,7 +19,7 @@ interface ProjectCardProps {
 function ProjectCard(props: ProjectCardProps) {
   return (
 
-    <div className="col-3 flex">
+    <div className="col-sm-12 col-md-3 flex py-2">
       <LazyLoad>
         <CSSTransition
           in={true}

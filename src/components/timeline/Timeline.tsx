@@ -18,7 +18,7 @@ function Timeline() {
           img={SeroTrackerIcon} startDate="April 2020" title="SeroTracker" position="Frontend Developer" location="Calgary, AB">
           <div className="fill flex left column pt-3">
             <div className="">
-              My team and I designed and built the frontend for SeroTracker, a website displaying COVID-19 antibody data from around the world.
+              My team and I designed and built the frontend for SeroTracker, a website displaying COVID-19 antibody data from around the world to aid the Canadian <a href="https://www.covid19immunitytaskforce.ca/research/global-serological-knowledge-hub/" target="_blank" rel="noopener noreferrer">Federal COVID-19 Immunity Task Force</a>.
           </div>
             <br />
             <div className="">
@@ -46,7 +46,7 @@ function Timeline() {
           position="Software Developer Intern" location="Calgary, AB">
           <div className="fill flex left column pt-3">
             <div className="">
-              I have spent the last 14 moonths working on an Angular application, with a C# (.Net) backend. In that time I have implemented security roles, a data tracking system to keep track of state over time, rebuilt the dashboard, and implemented a new major screen that I designed. I have so much appreciation for everyone on my team who has put up with my bad jokes, and been patient with me as I made the mistakes I needed to learn properly.
+              I have spent the last 14 months working on an Angular application, with a C# (.Net) backend. In that time I have implemented security roles, a data tracking system to keep track of state over time, rebuilt the dashboard, and implemented a new major screen that I designed. I have so much appreciation for everyone on my team who has put up with my bad jokes, and been patient with me as I made the mistakes I needed to learn properly.
             </div>
             <br />
           </div>
@@ -57,7 +57,7 @@ function Timeline() {
           position="Vice President Student Life" location="Calgary, AB">
           <div className="fill flex left column pt-3">
             <div className="">
-              My first major volunteering commitment was one I would gladly do again. Our student life team raised over $6000 for charity amd held social events for hundreds of students. Practice in teamwork, planning, communication while demonstrating accountability was all new, and I loved it.
+              My first major volunteering commitment was one I would gladly do again. Our student life team raised over $6000 for charity and held social events for hundreds of students. Practice in teamwork, planning, communication while demonstrating accountability was all new, and I loved it.
             </div>
             <br />
           </div>
@@ -68,7 +68,7 @@ function Timeline() {
           position="Software Developer Intern" location="Calgary, AB">
           <div className="fill flex left column pt-3">
             <div className="">
-              In my second summer with Replicon, I worked mostly on our AWS Codepipelines along with some frameworks test results, creating a lot of automation tooling. Some of the tooling I created was around modifying release candidates for hotfixes in production, which reduced processing time by around 60% whenever we needed to deploy a hotfix. 
+              In my second summer with Replicon, I worked mostly on our AWS Codepipelines along with some frameworks test results, creating a lot of automation tooling. Some of the tooling I created was around modifying release candidates for hotfixes in production, which reduced processing time by around 60% whenever we needed to deploy a hotfix.
             </div>
             <br />
           </div>
@@ -79,7 +79,7 @@ function Timeline() {
           position="Software Developer Intern" location="Calgary, AB">
           <div className="fill flex left column pt-3">
             <div className="">
-              My first summer at Replicon was full of learning. I began at such a beginner level, learning Ember JS and writing small frontend changes. Bouncing around doing testing architecture to deploy custom instances of our products, I landed on a project to rewrite one of our internal tools from an Ember JS product to a React application as an exploratory task. I'll always appreciate how Replicon invested time in me, and helped me learn when I was just starting out. 
+              My first summer at Replicon was full of learning. I began at such a beginner level, learning Ember JS and writing small frontend changes. Bouncing around doing testing architecture to deploy custom instances of our products, I landed on a project to rewrite one of our internal tools from an Ember JS product to a React application as an exploratory task. After I was done, I presented my project and findings to the entire company. I'll always appreciate how Replicon invested time in me, and helped me learn when I was just starting out.
             </div>
             <br />
           </div>
@@ -87,10 +87,10 @@ function Timeline() {
         <TimelineItem img={UniversityOfCalgary} startDate="September 2016"
           url="https://schulich.ucalgary.ca/"
           title="University of Calgary"
-          position="Bachelors of Electrical Engineering" location="Calgary, AB">
+          position="B.Sc in Electrical Engineering" location="Calgary, AB">
           <div className="fill flex left column pt-3">
             <div className="">
-              After 4 years at the University of Calgary, I already look back fondly. Late nights spent battling assignments in the lab, ski trips with friends, and a new appreciation for dedication. Along the way I fortunately confirmed that I was in the right degree, and I fell in love with building important projects. 
+              After 4 years at the University of Calgary, it is impossible not to have learned many lessons. How to deal with unfair. Late nights spent battling assignments in the lab, ski trips with friends, and a new appreciation for dedication. Along the way I fortunately confirmed that I was in the right degree, and I fell in love with building important projects.
             </div>
             <br />
           </div>
